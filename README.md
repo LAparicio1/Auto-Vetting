@@ -1,7 +1,7 @@
 # Auto-Vetting
 
 Problem:
-  Medical radiology requests such as x-rays and ultrasound examinations require vetting in order to determine their urgency (when the scan will be performed) and usefullness (appropriate to answer the clinical question).
+  Medical radiology requests such as x-rays and ultrasound examinations require vetting in order to determine their urgency (when the scan will be performed) and usefullness (suitible to answer the clinical question).
   The vetting process is time consuming and is subject to intra- and inter-operator variance.
   AI could bring more standardisation to this process and free up time from healthcare professionals.
 
