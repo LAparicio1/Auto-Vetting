@@ -5,7 +5,7 @@ Problem:
   The vetting process is time consuming and is subject to intra- and inter-operator variance.
   AI could bring more standardisation to this process and free up time from healthcare professionals.
 
-*First iteration of this project aimed to build a starting model that could differentiate medical requests that specify a date for the examination to be performed "D" and non urgent examinations "C". These two are the most common requests received in ultrasound. Later itterations will aim to differentiate between more vetting option like A (1-2 weeks wait) and B (4 weeks wait) etc. A rubust model will also be able to determine if the appropriate examination was requested or if other examination could be more suitible to asnwer the clinical question*
+*First iteration of this project aimed to build a starting model that could differentiate medical requests that specify a date for the examination to be performed "D" and non urgent examinations "C". These two are the most common requests received in ultrasound. Later itterations will aim to differentiate between more vetting option like A (1-2 weeks wait) and B (4 weeks wait) etc. A rubust model will also need to determine if the appropriate examination was requested or if other examinations could be more suitible to asnwer the clinical question*
 
 Model:
   Transfer learning was used with a pretrained model: https://huggingface.co/medicalai/ClinicalBERT | https://www.nature.com/articles/s41591-023-02552-9  which was trained on a large multicenter dataset with a large corpus of 1.2B words of diverse diseases. A large-scale corpus of EHRs from over 3 million patient records were then used to fine tune the base language model.
