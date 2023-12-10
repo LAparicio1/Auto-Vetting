@@ -16,5 +16,5 @@ Model:
 A larger dataset of 230 requests was obtained. These are GP requests for upper abdomen ultrasound examinations. The target variable contains 3 classes (0 - 1-2 weeks wait, 1 - 6 weeks wait and 2 - specific date). There are 80 requests for class 0 and 1 and 70 requests for class 2.
 Basic NLP (BNLP) was applied. This includes tokenization, lower case, punctuation removal (except <, >, /), term normalisation, spell checking and lemmetizer.
 Models tried: BOW + SVC, BOW + RF, BOW + LogReg, BOW + XGBoost , TF-IDF + SVC, TF-IDF + RF, TF-IDF + LogReg, TF-IDF + XGBoost, Bert (ClinicalBERT) and Bert (bert-base-uncased).
-Further NLP applied in testing the models: BNLP + StopWords, BNLP + negation detection (ND),	BNLP + POS,	BNLP + StopWords (keep negation) + ND,	BNLP + negation + POS,	BNLP + SW + POS,	BNLP + POS + ND + SW.
+Further NLP methods applied when testing the models: BNLP + StopWords, BNLP + negation detection (ND),	BNLP + POS,	BNLP + StopWords (keep negation) + ND,	BNLP + negation + POS,	BNLP + SW + POS,	BNLP + POS + ND + SW.
 The best perfoming model was the BOW + LogReg with BNLP + stop word removal. This model achieved an average accuracy of 89%. The best model combination is BOW + LogReg.
