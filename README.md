@@ -21,4 +21,4 @@ Models tried: BOW + SVC, BOW + RF, BOW + LogReg, BOW + XGBoost , TF-IDF + SVC, T
 
 Further NLP methods applied when testing the models: BNLP + StopWords, BNLP + negation detection (ND),	BNLP + POS,	BNLP + StopWords (keep negation) + ND,	BNLP + negation + POS,	BNLP + SW + POS,	BNLP + POS + ND + SW.
 
-The best perfoming model was the BOW + LogReg with BNLP + stop word removal. This model achieved an average accuracy of 89%. The best model combination is BOW + LogReg.
+The best perfoming model was the BOW + LogReg with BNLP + stop word removal. This model achieved an average accuracy of 89%.
